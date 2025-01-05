@@ -2,7 +2,6 @@ import pandas as pd
 import warnings
 import streamlit as st
 warnings.filterwarnings('ignore')
-Buat dataframe(df) dari dataset (Heart Disease Dataset)
 
 df = pd.read_csv('/kaggle/input/heart-disease-dataset/heart.csv')
 df.head()
@@ -12,22 +11,8 @@ age	sex	cp	trestbps	chol	fbs	restecg	thalach	exang	oldpeak	slope	ca	thal	target
 2	70	1	0	145	174	0	1	125	1	2.6	0	0	3	0
 3	61	1	0	148	203	0	1	161	0	0.0	2	1	3	0
 4	62	0	0	138	294	1	1	106	0	1.9	1	3	2	0
-Info Atribut dalam Dataset Info Atribut dalam Dataset :
 
-age = Usia
-sex = Jenis kelamin
-cp = Jenis nyeri dada (4 nilai) = Rentang 0 - 3 seberapa nyeri dada pasien
-trestbps = Tekanan darah saat istirahat (Satuan dalam mmHg )
-chol = Kadar Kolestrol serum dalam mg/dl
-fbs = Gula darah puasa > 120 mg/dl ? (1 = Ya, 0 = Tidak)
-restecg = Hasil elektrokardiografi setelah istirahat (nilai 0,1,2)
-thalach = Detak jantung maksimum yang dicapai
-exang = Mengalami angin setelah berolahraga? (1= Ya, 0 = Tidak)
-oldpeak = Depresi Segmen ST yang disbebakan oleh olahraga relatif terhadap istirahat
-slope = Gradien/Kemiringan Segmen ST
-ca = Jumlah pembuluh darah utama (0-3) yang diwarnai dengan flourosopi
-thal = Penyakit Menurun/Genetik Thalasemia : 1 = normal; 2 = cacat ; 3 = cacat yang dapat diperbaiki(carrier)
-target = 1(Ada Penyakit Jantung) / 0(Tidak Ada Penyakit Jantung)
+
 df.info()
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 1025 entries, 0 to 1024
