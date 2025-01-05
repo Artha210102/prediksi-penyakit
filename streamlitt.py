@@ -1,8 +1,3 @@
-1. Data Collection, Data Preparation
-Karena Kita Menggunakan Dataset(Heart Disease Dataset) yang sudah melewati proses Data Collection, dan Data Preparation. Jadi, Kita akan menuju ke langkah selanjutnya
-
-Load Dataset Menggunakan Library Pandas
-
 import pandas as pd
 import warnings
 import streamlit as st
