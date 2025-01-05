@@ -1,13 +1,3 @@
-
-Klasifikasi Penyakit Jantung
-Kali ini,kita akan membuat sebuah pemodelan pemodelan machine learning untuk meng-klasifikasi Penyakit Jantung. Mengidentifikasi Penyakit Jantung tentunya akan sangat membantu para tenaga medis dalam mengambil tindakan untuk pasiennya.
-
-Dalam Pembuatan Pemodelan Machine Learning, kita akan mengikuti alur machine learning pipeline :
-
-image.png
-
-image.png
-
 1. Data Collection, Data Preparation
 Karena Kita Menggunakan Dataset(Heart Disease Dataset) yang sudah melewati proses Data Collection, dan Data Preparation. Jadi, Kita akan menuju ke langkah selanjutnya
 
